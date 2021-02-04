@@ -130,7 +130,9 @@ Dreamweaver has Git integration allowing you to edit files and manage version co
 - Enter the *https://* URL of your repository
 - Enter GitHub username
 - Enter your GitHub password
+
 ![GitHub Sign In](https://www.computerhope.com/issues/pictures/dreamweaver-git-site-config.jpg)
+
 - Use *Test* to verify that it is working
 - Click *Save* 
 
@@ -139,11 +141,16 @@ Dreamweaver has Git integration allowing you to edit files and manage version co
 - Save your changes to the Dreamweaver files
 - After you have edited and saved a file, it will be listed as an *unstaged file*. Unstaged files are not currently being tracked by Git and are not part of a commit
 - To stage a file you have modified, check the box next to the file name
+
 ![Dreamweaver Add](https://www.computerhope.com/issues/pictures/dreamweaver-git-stage.jpg) 
+
 - When you are ready to commit your changes, click the *Commit* button
+
 ![Dreamweaver Commit](https://www.computerhope.com/issues/pictures/dreamweaver-git-commit-ren1.jpg)
+
 - Enter a meaningful commit message describing your changes and click *OK*
 - When you are ready to push your changes to the remote repository click *Git Push* 
+
 ![Dreamweaver Push](https://www.computerhope.com/issues/pictures/dreamweaver-git-push.jpg)
 
 ## Further Reading and References
