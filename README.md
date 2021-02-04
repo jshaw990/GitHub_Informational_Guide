@@ -81,6 +81,7 @@ GitHub offers a variety of ways to interact with remote repositories. The most c
 
 ### Command Line Integration (CLI)
 You can easily work with GitHub using the built-in command shell (aka terminal, command prompt, or command line) of your computer. 
+
 **Install Git**:
 - Open the command line and run: `git --version` 
 If the command is not recognized, you'll need to install [Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)
@@ -88,24 +89,31 @@ If the command is not recognized, you'll need to install [Git](https://docs.gitl
 - Add your GitHub Username: `git config --global user.name <YOUR USERNAME>`
 - And your email address: `git config --global user.email <YOUR EMAIL>`
 - Check the configuration: `git config --global --list`
+
 **Add a remote repository**:
 - Add a remote repository to your local environment: `git remote add origin <REMOTE URL>`
+
 **Download the Changes to Local**:
 - Pull the files from a remote repository: `git pull <REMOTE URL> <NAME OF BRANCH>`
+
 **Working with Branches**
 - Create a new branch: `git checkout -b <NAME OF BRANCH>`
 - Switch to the master branch: `git checkout master`
 - Switch to an existing branch: `git checkout <NAME OF BRANCH>`
-*Viewing Git Changes*
+
+**Viewing Git Changes**
 - View your remote repositories: `git remote -v`
 - View untracked/changed files on local repository: `git status`
 - View differences between local, unstaged, and repository versions: `git diff`
+
 **Add and Commit Local Changes**:
 - Stage changes to be pushed to repository: `git add <FILE NAME/FOLDER NAME>` or `git add .` to add all files
 - Write Commit message for changes staged files: `git commit -m "<YOUR MESSAGE WITHIN QUOTES>"`
+
 **Push Changes to GitHub**:
 - Push all staged commits to remote branch: `git push <REMOTE> <NAME OF BRANCH>`
 - Push all staged commits to master branch: `git push origin master`
+
 **Merge a Branch**:
 - Merge a branch with master: `git checkout <NAME OF BRANCH>` then `git merge master`
 
@@ -113,28 +121,30 @@ These are only a few of the most common git CLI commands, for more checkout the 
 
 ### Dreamweaver 
 Dreamweaver has Git integration allowing you to edit files and manage version control within a unified interface. You can pull and push changes, write (meaningful) commit messages, view differences, and perform merges. 
-	**Account Setup**:
-	- Create a new Dreamweaver Site
-	- Create a local site folder
-	- Select *Associate a Git repository with this site* 
-	- Select *Clone existing Git repository* if applicable 
-	- Enter the *https://* URL of your repository
-	- Enter GitHub username
-	- Enter your GitHub password
-	![GitHub Sign In](https://www.computerhope.com/issues/pictures/dreamweaver-git-site-config.jpg)
-	- Use *Test* to verify that it is working
-	- Click *Save* 
-	**Work Flow**:
-	- **Prior to editing files** perform a *Git Pull*, this will sync your local repository with the remote, giving you all of the new work completed since your last pull
-	- Save your changes to the Dreamweaver files
-	- After you have edited and saved a file, it will be listed as an *unstaged file*. Unstaged files are not currently being tracked by Git and are not part of a commit
-	- To stage a file you have modified, check the box next to the file name
-	![Dreamweaver Add](https://www.computerhope.com/issues/pictures/dreamweaver-git-stage.jpg) 
-	- When you are ready to commit your changes, click the *Commit* button
-	![Dreamweaver Commit](https://www.computerhope.com/issues/pictures/dreamweaver-git-commit-ren1.jpg)
-	- Enter a meaningful commit message describing your changes and click *OK*
-	- When you are ready to push your changes to the remote repository click *Git Push* 
-	![Dreamweaver Push](https://www.computerhope.com/issues/pictures/dreamweaver-git-push.jpg)
+
+**Account Setup**:
+- Create a new Dreamweaver Site
+- Create a local site folder
+- Select *Associate a Git repository with this site* 
+- Select *Clone existing Git repository* if applicable 
+- Enter the *https://* URL of your repository
+- Enter GitHub username
+- Enter your GitHub password
+![GitHub Sign In](https://www.computerhope.com/issues/pictures/dreamweaver-git-site-config.jpg)
+- Use *Test* to verify that it is working
+- Click *Save* 
+
+**Work Flow**:
+- **Prior to editing files** perform a *Git Pull*, this will sync your local repository with the remote, giving you all of the new work completed since your last pull
+- Save your changes to the Dreamweaver files
+- After you have edited and saved a file, it will be listed as an *unstaged file*. Unstaged files are not currently being tracked by Git and are not part of a commit
+- To stage a file you have modified, check the box next to the file name
+![Dreamweaver Add](https://www.computerhope.com/issues/pictures/dreamweaver-git-stage.jpg) 
+- When you are ready to commit your changes, click the *Commit* button
+![Dreamweaver Commit](https://www.computerhope.com/issues/pictures/dreamweaver-git-commit-ren1.jpg)
+- Enter a meaningful commit message describing your changes and click *OK*
+- When you are ready to push your changes to the remote repository click *Git Push* 
+![Dreamweaver Push](https://www.computerhope.com/issues/pictures/dreamweaver-git-push.jpg)
 
 ## Further Reading and References
 - [GitHub Docs](docs.github.com/en)
