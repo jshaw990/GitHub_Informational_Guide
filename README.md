@@ -81,34 +81,34 @@ GitHub offers a variety of ways to interact with remote repositories. The most c
 
 ### Command Line Integration (CLI)
 You can easily work with GitHub using the built-in command shell (aka terminal, command prompt, or command line) of your computer. 
-	**Install Git**:\s\s
-	- Open the command line and run: `git --version`\s\s 
-	If the command is not recognized, you'll need to install [Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)\s\s
-	**Configure Git**:\s\s
-	- Add your GitHub Username: `git config --global user.name <YOUR USERNAME>`\s\s
-	- And your email address: `git config --global user.email <YOUR EMAIL>`\s\s
-	- Check the configuration: `git config --global --list`\s\s
-	**Add a remote repository**:\s\s
-	- Add a remote repository to your local environment: `git remote add origin <REMOTE URL>`\s\s
-	**Download the Changes to Local**:\s\s
-	- Pull the files from a remote repository: `git pull <REMOTE URL> <NAME OF BRANCH>`\s\s
-	**Working with Branches**
-	- Create a new branch: `git checkout -b <NAME OF BRANCH>`
-	- Switch to the master branch: `git checkout master`
-	- Switch to an existing branch: `git checkout <NAME OF BRANCH>`
-	*Viewing Git Changes*
-	- View your remote repositories: `git remote -v`
-	- View untracked/changed files on local repository: `git status`
-	- View differences between local, unstaged, and repository versions: `git diff`
-	**Add and Commit Local Changes**:
-	- Stage changes to be pushed to repository: `git add <FILE NAME/FOLDER NAME>` or `git add .` to add all files
-	- Write Commit message for changes staged files: `git commit -m "<YOUR MESSAGE WITHIN QUOTES>"`
-	**Push Changes to GitHub**:
-	- Push all staged commits to remote branch: `git push <REMOTE> <NAME OF BRANCH>`
-	- Push all staged commits to master branch: `git push origin master`
-	**Merge a Branch**:
-	- Merge a branch with master: `git checkout <NAME OF BRANCH>` then `git merge master`
-	
+**Install Git**:
+- Open the command line and run: `git --version` 
+If the command is not recognized, you'll need to install [Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)
+**Configure Git**:
+- Add your GitHub Username: `git config --global user.name <YOUR USERNAME>`
+- And your email address: `git config --global user.email <YOUR EMAIL>`
+- Check the configuration: `git config --global --list`
+**Add a remote repository**:
+- Add a remote repository to your local environment: `git remote add origin <REMOTE URL>`
+**Download the Changes to Local**:
+- Pull the files from a remote repository: `git pull <REMOTE URL> <NAME OF BRANCH>`
+**Working with Branches**
+- Create a new branch: `git checkout -b <NAME OF BRANCH>`
+- Switch to the master branch: `git checkout master`
+- Switch to an existing branch: `git checkout <NAME OF BRANCH>`
+*Viewing Git Changes*
+- View your remote repositories: `git remote -v`
+- View untracked/changed files on local repository: `git status`
+- View differences between local, unstaged, and repository versions: `git diff`
+**Add and Commit Local Changes**:
+- Stage changes to be pushed to repository: `git add <FILE NAME/FOLDER NAME>` or `git add .` to add all files
+- Write Commit message for changes staged files: `git commit -m "<YOUR MESSAGE WITHIN QUOTES>"`
+**Push Changes to GitHub**:
+- Push all staged commits to remote branch: `git push <REMOTE> <NAME OF BRANCH>`
+- Push all staged commits to master branch: `git push origin master`
+**Merge a Branch**:
+- Merge a branch with master: `git checkout <NAME OF BRANCH>` then `git merge master`
+
 These are only a few of the most common git CLI commands, for more checkout the [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf).
 
 ### Dreamweaver 
